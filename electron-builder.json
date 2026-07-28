@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "electron:build:win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "me.funkin.js",
+    "productName": "FunkinJS",
+    "files": ["export/release/html5/**/*", "electron/**/*"],
+    "directories": {
+      "output": "dist-electron"
+    },
+    "win": {
+      "target": "nsis",
+      "artifactName": "FunkinJS (Windows).${ext}"
+    }
+  }
+}
