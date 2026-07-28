@@ -4,7 +4,7 @@
   "version": "0.2.7.1",
   "author": "ninjamuffin99",
   "packageName": "me.funkin.js",
-  "main": "source/main.js",
+  "main": "source/Main.js",
   "scripts": {
     "start": "vite",
     "build": "vite build"
