@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import { TitleState } from "./states/TitleState.js";
+import { TitleState } from "./TitleState.js";
 
 class Main {
   constructor() {
