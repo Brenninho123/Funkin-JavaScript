@@ -1,0 +1,38 @@
+{
+  "name": "friday-night-funkin",
+  "productName": "Friday Night Funkin'",
+  "version": "0.2.7.1",
+  "author": "ninjamuffin99",
+  "packageName": "me.funkin.js",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint src --fix"
+  },
+  "config": {
+    "window": {
+      "width": 1280,
+      "height": 720,
+      "fps": 60,
+      "background": "#000000",
+      "resizable": true,
+      "vsync": false
+    }
+  },
+  "dependencies": {
+    "pixi.js": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "vite": "^5.0.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "brace-style": ["error", "allman", { "allowSingleLine": false }],
+      "curly": ["error", "all"],
+      "keyword-spacing": ["error", { "before": true, "after": true }]
+    }
+  }
+}
